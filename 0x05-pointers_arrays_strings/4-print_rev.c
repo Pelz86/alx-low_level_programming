@@ -14,7 +14,7 @@ void print_rev(char *s)
 
 	int o;
 
-	while (*s != '\n')
+	while (*s != '\0')
 	{
 		longi++;
 		s++;
